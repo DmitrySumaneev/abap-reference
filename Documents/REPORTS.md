@@ -8,8 +8,8 @@ This section describes features of working with the reports from ABAP perspectiv
 
 ### How to get a list of Report variants?
 
-Use Function Module:
+Use:
 
 ```ABAP
-    'RS_VARIANT_CONTENTS_255'
+    CALL FUNCTION 'RS_VARIANT_CATALOG'.
 ```
